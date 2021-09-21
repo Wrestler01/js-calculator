@@ -1,0 +1,27 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 16px;
+    font-size: $font-size;
+    flex-direction: column;
+    line-height: $line-height;
+    background-color: yellow;
+    font-family: $project-font, sans-serif;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
